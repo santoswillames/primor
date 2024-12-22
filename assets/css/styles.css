@@ -501,8 +501,23 @@ span {
     margin: 0;
   }
 
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
   .section {
-    padding: 6rem 0 2rem;
+    padding: 6rem 2rem;
+  }
+
+  .section__title {
+    font-size: var(--big-font-size);
+  }
+
+  .home__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
   }
 
   .nav {
@@ -514,7 +529,7 @@ span {
   }
   .nav__list {
     flex-direction: row;
-    column-gap: 3.5rem;
+    column-gap: 1.4rem;
   }
   .nav__link {
     font-size: var(--normal-font-size);
