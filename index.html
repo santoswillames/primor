@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Prímor Movelaria</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.svg" alt="logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#dif" class="nav__link">Diferencial</a>
+            </li>
+            <li class="nav__item">
+              <a href="#galery" class="nav__link">Galeria</a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonials" class="nav__link">Depoimentos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Serviços</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line icon__close"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <video class="home__video-bg" autoplay muted loop>
+          <source src="/assets/video/video-hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="home__content">
+          <h1 class="home__title">
+            Aqui você conhece a empresa que te atende e faz os móveis do seu lar
+            e empresa sob medida exata e à sua vontade com muito prímor!
+          </h1>
+          <p class="home__subtitle">
+            Apertando no botão aqui embaixo você está muito perto de montar os
+            móveis planejados do seu desejo, garantimos satisfação 100%
+          </p>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=+5562999346984&text=Olá, gostaria de fazer um orçamento."
+            class="btn"
+          >
+            <i class="ri-whatsapp-line"></i>
+            Fazer orçamento
+          </a>
+        </div>
+      </section>
+
+      <!--=============== dif ===============-->
+      <section class="dif section" id="dif">
+        <h2 class="section__title section__title-gradient">
+          Nosso Diferencial
+        </h2>
+        <div class="dif__container container">
+          <div class="comp">
+            <span class="button--flex">
+              <i class="ri-check-line icon__check icon"></i> Nossa Empresa
+            </span>
+            <span class="button--flex">
+              <i class="ri-close-line icon__close icon"></i> Empresas padrão
+            </span>
+          </div>
+          <div class="dif__content">
+            <div class="comp">
+              <span class="button--flex">
+                <i class="ri-check-line icon__check icon"></i> Entrega do
+                serviço completo.
+              </span>
+              <span class="button--flex">
+                <i class="ri-close-line icon__close icon"></i> Entrega o
+                trabalho incompleto e com defeitos.
+              </span>
+            </div>
+            <div class="comp">
+              <span class="button--flex">
+                <i class="ri-check-line icon__check icon"></i> Não fazemos
+                promessas mas sim entregamos qualidade.
+              </span>
+              <span class="button--flex">
+                <i class="ri-close-line icon__close icon"></i> Prometem e não
+                entregam nada.
+              </span>
+            </div>
+            <div class="comp">
+              <span class="button--flex">
+                <i class="ri-check-line icon__check icon"></i> Contato próximo
+                com o cliente antes do trabalho e depois de realizado.
+              </span>
+              <span class="button--flex">
+                <i class="ri-close-line icon__close icon"></i> Contato com o
+                cliente apenas antes de fazer, depois de fazer somem.
+              </span>
+            </div>
+            <div class="comp">
+              <span class="button--flex">
+                <i class="ri-check-line icon__check icon"></i> Entregamos luxo
+                de verdade mas não cobramos preço, cobramos o valor agregado
+                para sua vida.
+              </span>
+              <span class="button--flex">
+                <i class="ri-close-line icon__close icon"></i> Entrega qualquer
+                coisa e cobra preço que não faz sentido pelo trabalho entregado.
+              </span>
+            </div>
+            <div class="comp">
+              <span class="button--flex">
+                <i class="ri-check-line icon__check icon"></i> Após fechar com a
+                gente você indica nossa empresa.
+              </span>
+              <span class="button--flex">
+                <i class="ri-close-line icon__close icon"></i> Após fechar com
+                eles você tem vergonha de indicar.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CASE ===============-->
+      <section class="galery section" id="galery">
+        <h2 class="section__title section__title-gradient">
+          O final dos pesadelos de nossos cliente é quando entregamos essa
+          qualidade
+        </h2>
+        <div class="galery__container container grid">
+          <img src="/assets//img/img-1.jpg" class="img__galery" />
+          <img src="/assets//img/img-2.jpg" class="img__galery" />
+          <img src="/assets//img/img-3.jpg" class="img__galery" />
+          <img src="/assets//img/img-4.jpg" class="img__galery" />
+          <img src="/assets//img/img-5.jpg" class="img__galery" />
+          <img src="/assets//img/img-6.jpg" class="img__galery" />
+          <img src="/assets//img/img-7.jpg" class="img__galery" />
+          <img src="/assets//img/img-8.jpg" class="img__galery" />
+          <img src="/assets//img/img-9.jpg" class="img__galery" />
+          <img src="/assets//img/img-10.jpg" class="img__galery" />
+          <img src="/assets//img/img-11.jpg" class="img__galery" />
+          <img src="/assets//img/img-13.jpg" class="img__galery" />
+        </div>
+      </section>
+
+      <!--=============== testimonials ===============-->
+      <section class="testimonials section" id="testimonials">
+        <h2 class="section__title section__title-gradient">
+          História da Letícia nossa cliente
+        </h2>
+        <div class="testimonials__container container">
+          <p>
+            Imagine ter que refazer seus móveis planejados três vezes em um
+            único ano. Foi exatamente isso que aconteceu com a Letícia, uma
+            cliente nossa. Quando visitamos o apartamento dela, ela nos contou
+            que já havia contratado duas empresas diferentes, mas nenhuma
+            conseguiu entregar um trabalho de qualidade.
+          </p>
+          <p>
+            Moradora do Setor Bueno, em Goiânia, Letícia disse que a decepção
+            foi tão grande que essa seria sua última tentativa. Quando ouvi
+            isso, percebi que os sonhos de muitas pessoas estavam se
+            transformando em pesadelos e estresse. Além de não ficarem
+            satisfeitas, elas perdem dinheiro que não volta.
+          </p>
+          <p>
+            Eu não fiz nenhuma promessa à Letícia naquele momento, mas fiz um
+            compromisso comigo mesmo: nenhum cliente que nos contratar verá seu
+            sonho virar um pesadelo. Foi a partir dessa filosofia que a Prímor
+            Movelaria surgiu. Nosso propósito é acabar com os pesadelos no ramo
+            de móveis planejados.
+          </p>
+          <p>
+            É inadmissível que empresas cobrem valores altos para entregar um
+            trabalho de baixa qualidade. Somos contra isso, e acreditamos que
+            você também.
+          </p>
+          <h2>Clique no botão e seja feliz como a Letícia!</h2>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=+5562999346984&text=Olá, gostaria de fazer um orçamento."
+            class="btn"
+          >
+            <i class="ri-whatsapp-line"></i>
+            Fazer orçamento
+          </a>
+        </div>
+      </section>
+
+      <!--=============== services ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title section__title-gradient services__line">
+          O que fazemos
+        </h2>
+
+        <div class="services__container container grid">
+          <h2>
+            <i class="ri-check-line icon__check icon"></i>
+            Sua residência inteira sob medida.
+          </h2>
+          <h2>
+            <i class="ri-check-line icon__check icon"></i>
+            Seu escritório e home office completo.
+          </h2>
+          <h2>
+            <i class="ri-check-line icon__check icon"></i>
+            Material de qualidade para deixar seu ambiente mais luxuoso e
+            admirável.
+          </h2>
+          <h2>
+            <i class="ri-check-line icon__check icon"></i>
+            Realizamos a criação de toda sua empresa ou comércio, criando um
+            ambiente confortável luxuoso e atraente para seus clientes.
+          </h2>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=+5562999346984&text=Olá, gostaria de fazer um orçamento."
+            class="btn"
+          >
+            <i class="ri-whatsapp-line"></i>
+            Fazer orçamento
+          </a>
+        </div>
+      </section>
+
+      <!--=============== about ===============-->
+      <section class="about section" id="about">
+        <h2 class="section__title section__title-gradient about__line">
+          Sobre nós
+        </h2>
+
+        <div class="about__container container grid">
+          <p>
+            Nós da Prímor Movelaria fomos criados para atender não só as
+            necessidades de clientes e sim para tornar os seus sonhos
+            realizados, não transformados em pesadelos, a nossa criação e o
+            conceito do prímor foi criado pela decepção de ter que refazer
+            móveis planejados feitos por outras empresas, isso aconteceu com
+            vários clientes como a Letícia que eu te contei, mas sempre
+            mostramos que a gente era diferente, concordamos que cobrar um
+            trabalho caro é um dever entregar algo extraordinário, e essa é a
+            nossa filosofia, entregar um trabalho conforme a sua vontade e não a
+            nossa, e a nossa garantia é que não vai ser preciso refazer nosso
+            trabalho!
+          </p>
+        </div>
+      </section>
+
+      <!--=============== contact ===============-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title section__title-gradient contact__line">
+          Aqui vou te mostrar aonde encontrar nossa empresa.
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="icons">
+            <span>
+              <i class="ri-instagram-line"></i>
+              <a
+                href="https://www.instagram.com/primor_go/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >@primor_go</a
+              >
+            </span>
+            <span>
+              <i class="ri-whatsapp-line"></i>
+              <a
+                href="https://api.whatsapp.com/send?phone=+5562999346984&text=Olá, gostaria de fazer um orçamento."
+                target="_blank"
+                rel="noopener noreferrer"
+                >(62) 9 9934-6984</a
+              >
+            </span>
+            <span>
+              <i class="ri-road-map-line"></i>
+              Goiânia (GO) e em outras regiões.
+            </span>
+          </div>
+          <h2>
+            Nesses lugares você tem uma conexão poderosa com nossa história,
+            trabalhos e fica por dentro de tudo que acontece na nossa empresa!
+          </h2>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <p class="footer__copy">
+          <a
+            href="https://github.com/santoswillames/"
+            class="footer__copy-link"
+          >
+            &#169; - Developed by Willames Santos
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
